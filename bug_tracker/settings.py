@@ -100,8 +100,7 @@ WSGI_APPLICATION = 'bug_tracker.wsgi.application'
 
 DATABASES = {
     'default': dj_database_url.config(
-        # Feel free to alter this value to suit your needs.
-        default='postgresql://postgres:postgres@localhost/postgres',
+        default='postgres://tracker_db_yyox_user:D5jptXehwWo8S5h9oEbX0bPCdGtectng@dpg-ck097lb6fquc73dal430-a/tracker_db_yyox',
         conn_max_age=600
     )
 }
