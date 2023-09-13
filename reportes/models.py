@@ -24,7 +24,7 @@ class BugReport(models.Model):
         ('AXCES', 'AXCES'),
         ('Gestion Del Riesgo', 'Gestion Del Riesgo'),
         ('Mercadeo', 'Mercadeo'),
-        ('Transcersal', 'Transcersal'),
+        ('Transversal', 'Transversal'),
     ]
 
     title = models.CharField(max_length=200, verbose_name='Nombre del Bug')
