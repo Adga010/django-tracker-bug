@@ -112,8 +112,6 @@ WSGI_APPLICATION = 'bug_tracker.wsgi.application'
 #     }
 # }
 
-
-
 DATABASES = {
     'default': dj_database_url.config(
         # Feel free to alter this value to suit your needs.
