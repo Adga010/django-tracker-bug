@@ -98,6 +98,22 @@ WSGI_APPLICATION = 'bug_tracker.wsgi.application'
 #     }
 # }
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'tracker_db_yyox',
+#         'USER': 'tracker_db_yyox_user',
+#         'PASSWORD': 'D5jptXehwWo8S5h9oEbX0bPCdGtectng',
+#         'HOST': '35.227.164.209',
+#         'PORT': '5432',
+#         'OPTIONS': {
+#             'sslmode': 'require',  # O 'disable' si no deseas SSL
+#         },
+#     }
+# }
+
+
+
 DATABASES = {
     'default': dj_database_url.config(
         # Feel free to alter this value to suit your needs.
