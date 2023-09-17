@@ -52,7 +52,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'reportes',
-    'import_export'
+    'import_export',
+    'rangefilter'
 ]
 
 MIDDLEWARE = [
@@ -87,7 +88,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'bug_tracker.wsgi.application'
 
-
+### TEST
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
@@ -112,6 +113,7 @@ WSGI_APPLICATION = 'bug_tracker.wsgi.application'
 #     }
 # }
 
+### PROD
 DATABASES = {
     'default': dj_database_url.config(
         # Feel free to alter this value to suit your needs.

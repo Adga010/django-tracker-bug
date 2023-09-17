@@ -34,8 +34,8 @@ class BugReport(models.Model):
     status = models.CharField(max_length=20, choices=STATUS_CHOICES, verbose_name='Estado')
     project_name = models.CharField(max_length=100, verbose_name='Nombre del Proyecto')
     causal = models.CharField(max_length=50, choices=CAUSAL_CHOICES)
-    link = models.URLField(max_length=200, blank=True, null=True, verbose_name='Enlace')
-    assigned_to = models.CharField(max_length=100, blank=True, null=True, verbose_name='Encargado')
+    link = models.URLField(max_length=200, verbose_name='Enlace')
+    assigned_to = models.CharField(max_length=100, verbose_name='Encargado')
     severity = models.CharField(max_length=20, choices=SEVERITY_CHOICES, verbose_name='Severidad')
 
     def __str__(self):
